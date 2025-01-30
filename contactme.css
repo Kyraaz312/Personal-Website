@@ -1,0 +1,158 @@
+*, html {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.navbar {
+    background-color: white;
+    height: 80vh;
+}
+
+.megu {
+    object-fit: cover;
+    position: absolute;
+    height: fit-content;
+    width: fit-content;
+}
+
+.jalan {
+    object-fit: cover;
+    position: absolute;
+    size: 100%;
+    object-position: center;
+}
+
+.video32 {
+    object-position: center;
+    object-fit: cover;
+    position: absolute;
+    size: 100%;
+}
+
+.vid-content {
+    padding: 20px;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color : bluevioletwhite;
+    flex-wrap: wrap;
+}
+
+.abc {
+    padding :15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 70%;
+}
+
+.abc:hover{
+    background-color: white;
+
+    border-radius: 80px;
+}
+
+.instagram {
+    border-radius: 80px;
+}
+
+.def{
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    opacity: 70%;
+    
+}
+
+.def:hover {
+    background-color:  white;
+    border-radius: 80px;
+}
+
+.telegram {
+    border-radius: 80px;
+}
+
+
+.video {
+    height: 420px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+}
+
+.cba {
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    opacity: 70%;
+}
+
+.cba:hover {
+    background-color:  white;
+    border-radius: 80px;
+}
+
+.tiktok {
+    border-radius: 80px;
+}
+
+.fed {
+    padding: 15px;
+    opacity: 70%;
+}
+
+.fed:hover {
+    background-color: white;
+    border-radius: 80px;
+}
+
+.youtube {
+    border-radius: 80px;
+}
+
+.b-content {
+    height: 560px;
+    width: 420px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 98px;
+    display: flex;
+    box-shadow: box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);;
+    opacity: 80%;
+}
+
+@media only screen and (max-width: 476px) {
+    .vid-content {
+        background-color: black;
+        flex-wrap: wrap;
+    }
+    
+    .instagram {
+        height: 100px;
+        width: 100px;
+    }
+
+    .telegram {
+        height: 80px;
+        width: 80px;
+    }
+
+    .tiktok {
+        height: 100px;
+        width: 100px;
+    }
+
+    .youtube {
+        height: 100px;
+        width: 100px;
+    }
+}
